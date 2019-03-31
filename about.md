@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-’ve been working with software development since 2002, dealing with different business domains.
+I’ve been working with software development since 2002, dealing with different business domains.
 
-Full Stack Developer, Back End Developer and Software Architect are usually my professional positions.
+**Full Stack Developer**, **Back End Developer** and **Software Architect** are usually my professional positions.
 
 ## Hard skills (to name a few)
 
@@ -45,4 +45,4 @@ Full Stack Developer, Back End Developer and Software Architect are usually my p
 
 ## Achievements
 
-Part of my achievements are acessible on my [Acclaim Profile](https://www.youracclaim.com/users/carlos-eduardo-goncalves/badges)
+Part of my achievements are acessible on my **[Acclaim Profile](https://www.youracclaim.com/users/carlos-eduardo-goncalves/badges)**
