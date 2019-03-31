@@ -1,0 +1,39 @@
+# Site settings
+name: Carlos Eduardo Gonçalves
+description: "Nifty little description"
+url: ""
+
+
+# Delete the lines you don't need
+# about 5 elements are recomended
+github_username:  cadu-goncalves
+#facebook_username: your_facebook_username_goes_here
+twitter_username: cadu_goncalves
+linkedin_username: cadugoncalves
+#instagram_username:  your_instagram_username_goes_here
+#medium_username:  your_medium_username_goes_here
+#blog_url: "/blog"
+email: cadu.goncalves@gmail.com
+#public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
+
+
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "https://avatars2.githubusercontent.com/u/5223675"
+
+
+front_img: yes
+front_img_path: "imgs/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
+
+
+favicon_img: no
+favicon_img_path: "imgs/favicon.ico"
+#favicon_img_path: "https://external.url/favicon.ico"
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
