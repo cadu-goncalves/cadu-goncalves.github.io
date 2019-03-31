@@ -1,16 +1,16 @@
 # Site settings
 name: Carlos Eduardo Gonçalves
-description: "Nifty little description"
+description: "Software Engineer in State of Santa Catarina, Brazil"
 url: ""
 
 
 # Delete the lines you don't need
 # about 5 elements are recomended
-github_username:  cadu-goncalves
+github_username:  etriphany
 #facebook_username: your_facebook_username_goes_here
 twitter_username: cadu_goncalves
 linkedin_username: cadugoncalves
-#instagram_username:  your_instagram_username_goes_here
+instagram_username:  cadu.goncalves
 #medium_username:  your_medium_username_goes_here
 #blog_url: "/blog"
 email: cadu.goncalves@gmail.com
