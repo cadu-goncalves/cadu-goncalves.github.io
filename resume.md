@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Resume
-description: Professional resume and achievements
-image: assets/images/pic11.jpg
+description: Resume and achievements
+image: assets/images/rt_02.jpg
 nav-menu: true
 ---
 

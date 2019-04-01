@@ -23,7 +23,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="resume.html" class="image">
-			<img src="assets/images/_pic02.jpg" alt="" data-position="center center" />
+			<img src="assets/images/sq_01.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -55,12 +55,12 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="resume.html" class="image">
-			<img src="assets/images/_pic04.jpg" alt="" data-position="25% 25%" />
+			<img src="assets/images/sq_03.jpg" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Eletronics and IOT</h3>
+					<h3>Electronics and IOT</h3>
 				</header>
 				<p>I started my live as engiener  at high school learning <b>Electronics</b>, so part of my memories are activated when I'm cutting wires and welding some components. Nowadays I try to keep some IOT projects for myself and I also have some projects that I'll share as open source in the near future.</p>
 				<ul class="actions">

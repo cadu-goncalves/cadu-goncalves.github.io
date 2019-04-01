@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+description: Some of my personal projects
 nav-menu: true
 ---
 
@@ -15,34 +16,37 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<h2 id="content">My projects</h2>
+<p>I keep most of my projects in two repositories on <b>Github</b>, one under my corporate name <b>etriphany</b> for projects I build and maintain and my personal repository <b>cadu-goncalves</b>, for projects I fork and learn from. Here I present some the most relevant projects.</p>
 <div class="row">
-	<div class="6u 12u$(small)">
-		<h3>Sem turpis amet semper</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	<div class="4u 12u$(medium)">
+		<h3>User Management Microservice </h3>
+		<p>Single microservice implemented using Spring Boot, used to study the main non-functional requirements related with microservices implementation, including CI/CD pipelines, API documentation, tests and base architecture.</p>
+		<a href="https://github.com/cadu-goncalves/user-mng" class="button special icon fit fa-github">Fork</a>
 	</div>
-	<div class="6u$ 12u$(small)">
-		<h3>Magna odio tempus commodo</h3>
-		<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+	<div class="4u 12u$(medium)">
+		<h3>Lucene Showcase</h3>
+		<p>The very first of my <b>showcase</b> projects, where I cover the main features of Apache Lucene with some spice. Project based on Java 8, Spring Boot also includes an external UI based on NodeJS and BackboneJS.</p>
+		<a href="https://github.com/etriphany/lucene-showcase" class="button special icon fit fa-github">Fork</a>
+	</div>
+	<div class="4u$ 12u$(medium)">
+		<h3>Docker Elasticsearch</h3>
+		<p>Small Docker image for Elasticsearch based on Alpine Linux. The project also includes an custom Docker image for Kibana and a fully functional Elasticsearch cluster based on Docker Compose.</p>
+		<a href="https://github.com/etriphany/docker-elasticsearch" class="button special icon fit fa-github">Fork</a>
 	</div>
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
-		<h3>Interdum sapien gravida</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3>Microsevice Showcase (upcoming)</h3>
+		<p>This is under development and provides a full set of microservice projects including APM monitoring, CI / CD pipelines and of course
+		implemetation of microservices that compose a article platform like <b>Medium</b> </p>
+		<span class="button special icon fit fa-github disabled">Fork</span>
 	</div>
 	<div class="4u 12u$(medium)">
-		<h3>Faucibus consequat lorem</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-	</div>
-	<div class="4u$ 12u$(medium)">
-		<h3>Accumsan montes viverra</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<h3>Green Keeper Aquarium Controller (upcoming)</h3>
+		<p>Open hardware and software project for a aquarium controller using the microcotroller ESP-8266. The project will also include a mobile application used to remotely crontrol the aquarium over Wifi.</p>
+		<span class="button special icon fit fa-github disabled">Fork</span>
 	</div>
 </div>
-
-<hr class="major" />
-
+</div>
 </section>
-
 </div>

@@ -9,7 +9,7 @@
 				</div>
 				<div class="field half">
 					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
+					<input type="email" name="_replyto" id="email" />
 				</div>
 				<div class="field">
 					<label for="message">Message</label>
@@ -67,6 +67,9 @@
 	<footer id="footer">
 		<div class="inner">
 			<ul class="icons">
+				{% if site.corporate_url %}
+				<li><a href="{{ site.corporate_url }}" class="icon alt fa-globe" target="_blank"><span class="label">Site</span></a></li>
+				{% endif %}
 				{% if site.twitter_url %}
 				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 				{% endif %}
@@ -115,3 +118,4 @@
 	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+	{% include analytics.html %}

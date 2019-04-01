@@ -3,8 +3,8 @@ title: Carlos Eduardo Gonçalves
 subtitle: Software Developer
 email: cadu.goncalves@gmail.com
 description: Welcome to my personal website where I share my personal <br />projects, toughts and professional skills.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: https://cadu-goncalves.github.io
 author:
 street_address:
 city: Florianópolis
@@ -28,6 +28,10 @@ linkedin_url: https://www.linkedin.com/in/cadugoncalves
 pinterest_url:
 slack_url:
 twitter_url: https://twitter.com/cadu_goncalves
+corporate_url: http://etriphany.com
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-137357228-1
 
 # build settings
 markdown: kramdown
