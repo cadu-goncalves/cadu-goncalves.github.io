@@ -1,29 +1,48 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Elements
+nav-menu: true
 ---
 
-I keep most of my personal projects on my "corporate" profile, related with an [website](http://www.etriphany.com) I own, so i can let my "personal" profile to fork projects to learn from or experiment without coding myself.
+<!-- Main -->
+<div id="main" class="alt">
 
-## Relevant Projects
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Projects</h1>
+		</header>
 
-### [Lucene Showcase](https://github.com/etriphany/lucene-showcase)
-Part of my showcase projects this one is dedicated to show features from **Apache Lucene**.
+<!-- Content -->
+<h2 id="content">Sample Content</h2>
+<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<div class="row">
+	<div class="6u 12u$(small)">
+		<h3>Sem turpis amet semper</h3>
+		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	</div>
+	<div class="6u$ 12u$(small)">
+		<h3>Magna odio tempus commodo</h3>
+		<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. Ante commodo blandit adipiscing integer semper orci eget. Faucibus commodo adipiscing mi eu nullam accumsan morbi arcu ornare odio mi adipiscing nascetur lacus ac interdum morbi accumsan vis mi accumsan ac praesent.</p>
+	</div>
+	<!-- Break -->
+	<div class="4u 12u$(medium)">
+		<h3>Interdum sapien gravida</h3>
+		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	</div>
+	<div class="4u 12u$(medium)">
+		<h3>Faucibus consequat lorem</h3>
+		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	</div>
+	<div class="4u$ 12u$(medium)">
+		<h3>Accumsan montes viverra</h3>
+		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+	</div>
+</div>
 
-### [Docker Elasticsearch](https://github.com/etriphany/docker-elasticsearch)
-Part of my Docker projects I use to learn about... Docker of course.
+<hr class="major" />
 
-### [UserManagement Microservice](https://github.com/cadu-goncalves/user-mng)
-Single microservice project based on Java 8 and Spring Boot, has built-in CI/CD integration based on CircleCI and Docker Hub.
+</section>
 
-
-## Upcoming Projects
-
-### Microsevice Showcase
-
-  I'm working on this showcase project, basically implementing a set of Microservices that will also include DevOps integrations (some extension of my **UserManagement Microservice** project).
-
-### Green Keeper
-
-  This is an IOT project that should include both hardware and software sources for a aquarium monitor system easy to use.
+</div>
