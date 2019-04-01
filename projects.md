@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elements
+title: Projects
 nav-menu: true
 ---
 
