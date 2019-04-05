@@ -1,7 +1,7 @@
 # site settings
 title: Carlos Eduardo Gonçalves
 subtitle: Software Developer
-email: cadu.goncalves@gmail.com
+email: pnqh.tbapnyirf@tznvy.pbz #encoded as rot13
 description: Welcome to my personal website where I share my personal <br />projects, toughts and professional skills.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://cadu-goncalves.github.io

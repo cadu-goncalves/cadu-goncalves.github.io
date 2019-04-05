@@ -2,18 +2,18 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
+			<form id="formspree" method="POST">
 				<div class="field half first">
 					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
+					<input type="text" required name="name" id="name" />
 				</div>
 				<div class="field half">
 					<label for="email">Email</label>
-					<input type="email" name="_replyto" id="email" />
+					<input type="email" required name="_replyto" id="email" />
 				</div>
 				<div class="field">
 					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
+					<textarea name="message" required id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
 					<li><input type="submit" value="Send Message" class="special" /></li>
@@ -26,7 +26,7 @@
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
 					<h3>Email</h3>
-					<a href="#">{{ site.email }}</a>
+					<a id="site-email" href="#">{{ site.email }}</a>
 				</div>
 			</section>
 			<section>
@@ -41,21 +41,21 @@
 					<span class="icon alt fa-home"></span>
 					<h3>Address</h3>
 					<span>
-					{% if site.street_address %}
+					{%- if site.street_address -%}
 					    {{ site.street_address }}<br />
-					{% endif %}
-					{% if site.city %}
+					{%- endif -%}
+					{%- if site.city -%}
 					    {{ site.city }},
-					{% endif %}
-					{% if site.state %}
+					{%- endif -%}
+					{%- if site.state -%}
 					    {{ site.state }}
-					{% endif %}
-					{% if site.zip_code %}
+					{%- endif -%}
+					{%- if site.zip_code -%}
 					    {{ site.zip_code }}<br />
-					{% endif %}
-					{% if site.country %}
+					{%- endif -%}
+					{%- if site.country -%}
 					    {{ site.country }}
-					{% endif %}
+					{%- endif -%}
 					</span>
 				</div>
 			</section>
@@ -67,39 +67,39 @@
 	<footer id="footer">
 		<div class="inner">
 			<ul class="icons">
-				{% if site.corporate_url %}
+				{%- if site.corporate_url -%}
 				<li><a href="{{ site.corporate_url }}" class="icon alt fa-globe" target="_blank"><span class="label">Site</span></a></li>
-				{% endif %}
-				{% if site.twitter_url %}
+				{%- endif -%}
+				{%- if site.twitter_url -%}
 				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-				{% endif %}
-				{% if site.googleplus_url %}
+				{%- endif -%}
+				{%- if site.googleplus_url -%}
 				<li><a href="{{ site.googleplus_url }}" class="icon alt fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
-				{% endif %}
-				{% if site.facebook_url %}
+				{%- endif -%}
+				{%- if site.facebook_url -%}
 				<li><a href="{{ site.facebook_url }}" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-				{% endif %}
-				{% if site.instagram_url %}
+				{%- endif -%}
+				{%- if site.instagram_url -%}
 				<li><a href="{{ site.instagram_url }}" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-				{% endif %}
-				{% if site.pinterest_url %}
+				{%- endif -%}
+				{%- if site.pinterest_url -%}
 				<li><a href="{{ site.pinterest_url }}" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
-				{% endif %}
-				{% if site.500px_url %}
+				{%- endif -%}
+				{%- if site.500px_url -%}
 				<li><a href="{{ site.500px_url }}" class="icon alt fa-500px" target="_blank"><span class="label">500px</span></a></li>
-				{% endif %}
-				{% if site.gitlab_url %}
+				{%- endif -%}
+				{%- if site.gitlab_url -%}
 				<li><a href="{{ site.gitlab_url }}" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
-				{% endif %}
-				{% if site.github_url %}
+				{%- endif -%}
+				{%- if site.github_url -%}
 				<li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-				{% endif %}
-				{% if site.slack_url %}
+				{%- endif -%}
+				{%- if site.slack_url -%}
 				<li><a href="{{ site.slack_url }}" class="icon alt fa-slack" target="_blank"><span class="label">Slack</span></a></li>
-				{% endif %}
-				{% if site.linkedin_url %}
+				{%- endif -%}
+				{%- if site.linkedin_url -%}
 				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-				{% endif %}
+				{%- endif -%}
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
@@ -114,8 +114,10 @@
 	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.rot13.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
-	{% include analytics.html %}
+	{%- include spam.html -%}
+	{%- include analytics.html -%}

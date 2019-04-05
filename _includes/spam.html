@@ -1,0 +1,6 @@
+<script>
+$(window).load(function() {
+  $('#site-email').rot13();
+  $('#formspree').attr('action', '//formspree.io/' + $.rot13('{{ site.email }}'));
+});
+</script>
