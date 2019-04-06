@@ -23,7 +23,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="resume.html" class="image">
-			<img src="assets/images/sq_01.jpg" alt="" data-position="center center" />
+			<img src="assets/images/sq_04.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
