@@ -1,6 +1,6 @@
 ---
-title: About
 layout: landing
+title: About
 description: 'Know more about myself and what I do.'
 image: assets/images/rt_01.jpg
 nav-menu: true
