@@ -15,12 +15,23 @@ nav-menu: true
 		<header class="major">
 			<h2>Software Development</h2>
 		</header>
-		 <div class="box alt">
-			<ul class="alt">
-				<li>Dolor etiam magna etiam.</li>
-				<li>Sagittis lorem eleifend.</li>
-				<li>Felis feugiat viverra.</li>
-			</ul>
+		<div class="box alt">
+			<div class="row uniform">
+				<div class="6u">
+					<ul class="alt">
+						<li><a href="#" class="icon fa-check-square-o"></a> Experience in product development and R&D</li>
+						<li><a href="#" class="icon fa-check-square-o"></a> Distributed systems</li>
+						<li><a href="#" class="icon fa-check-square-o"></a> REST APIs</li>
+					</ul>
+				</div>
+				<div class="6u$">
+					<ul class="alt">
+						<li><a href="#" class="icon fa-check-square-o"></a> Message Driven / Reactive systems</li>
+						<li><a href="#" class="icon fa-check-square-o"></a> Microservices</li>
+					</ul>
+				</div>
+				<!-- Break -->
+			</div>
 		 </div>
 	</div>
 </section>
@@ -55,8 +66,25 @@ nav-menu: true
 		<header class="major">
 			<h2>Electronics and IOT</h2>
 		</header>
-		<div class="box alt">
-		</div>
+		 <div class="box alt">
+			<div class="row uniform">
+				<div class="6u">
+					<ul class="alt">
+						<li><a href="#" class="icon fa-check-square-o"></a> Digital electronics</li>
+						<li><a href="#" class="icon fa-check-square-o"></a> Arduino</li>
+						<li><a href="#" class="icon fa-check-square-o"></a> ESP 8266</li>
+					</ul>
+				</div>
+				<div class="6u$">
+					<ul class="alt">
+						<li><a href="#" class="icon fa-check-square-o"></a> Serial protocols (UART, One Wire, I2C, SPI)</li>
+						<li><a href="#" class="icon fa-check-square-o"></a> Synchronous protocols (CoAP)</li>
+						<li><a href="#" class="icon fa-check-square-o"></a> Asynchronous protocols (MQTT)</li>
+					</ul>
+				</div>
+				<!-- Break -->
+			</div>
+		 </div>
 	</div>
 </section>
 
