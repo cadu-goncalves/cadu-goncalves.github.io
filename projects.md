@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Projects
+title: Tech Projects
 description: Some of my personal projects
+image: assets/images/rt_03.jpg
 nav-menu: true
 ---
 
@@ -12,7 +13,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Projects</h1>
+			<h1>Tech Projects</h1>
 		</header>
 
 <!-- Content -->
@@ -30,20 +31,24 @@ nav-menu: true
 		<a href="https://github.com/etriphany/lucene-showcase" class="button special icon fit fa-github">Fork</a>
 	</div>
 	<div class="4u$ 12u$(medium)">
-		<h3>Docker Elasticsearch</h3>
-		<p>Small Docker image for Elasticsearch based on Alpine Linux. The project also includes an custom Docker image for Kibana and a fully functional Elasticsearch cluster based on Docker Compose.</p>
-		<a href="https://github.com/etriphany/docker-elasticsearch" class="button special icon fit fa-github">Fork</a>
+		<h3>ESP Docker SDK</h3>
+		<p>Preparing an SDK for ESP8266 microcontrollers development can be trick. This Docker container provides the official <b>Espressif NonOS SDK</b> ready to use.</p><br/>
+		<a href="https://github.com/etriphany/esp-docker-sdk" class="button special icon fit fa-github">Fork</a>
 	</div>
-	<!-- Break -->
+	<!-- Break is 4u$ -->
 	<div class="4u 12u$(medium)">
-		<h3>Microsevice Showcase (upcoming)</h3>
-		<p>This is under development and provides a full set of microservice projects including APM monitoring, CI / CD pipelines and of course
-		implemetation of microservices that compose a article platform like <b>Medium</b> </p>
+		<h3>ESP Wifire</h3>
+		<p>Wi-fi security exploiter experiments based on microcontrollers ESP8266. Provides multiple features such Beacon Span, PCAP serialization and Deauthentication.</p><br/>
+		<a href="https://github.com/etriphany/esp-wifire" class="button special icon fit fa-github">Fork</a>
+	</div>
+	<div class="4u 12u$(medium)">
+		<h3>Microsevice Showcase (UD)</h3>
+		<p>This is under development and provides a full set of microservice projects including APM monitoring, CI / CD pipelines and a set of microservices that compose a article platform like <b>Medium</b> </p>
 		<span class="button special icon fit fa-github disabled">Fork</span>
 	</div>
 	<div class="4u 12u$(medium)">
-		<h3>Green Keeper Aquarium Controller (upcoming)</h3>
-		<p>Open hardware and software project for a aquarium controller using the microcotroller ESP-8266. The project will also include a mobile application used to remotely crontrol the aquarium over Wifi.</p>
+		<h3>Green Keeper (UD)</h3>
+		<p>Open hardware/software project for a aquarium controller using the microcotroller ESP8266. Also includes a mobile application that provides all actions and dashboards to users.</p>
 		<span class="button special icon fit fa-github disabled">Fork</span>
 	</div>
 </div>

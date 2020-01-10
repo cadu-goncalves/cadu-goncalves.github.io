@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, I am Carlos Eduardo Gonçalves'
+landing-title: Hi, I am Carlos Eduardo Gonçalves
 description: null
 image: null
 author: null
