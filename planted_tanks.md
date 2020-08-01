@@ -8,7 +8,7 @@ nav-menu: false
 
 <p>
   <span class="image left"><img src="assets/images/aqua/aqua_10.jpg" alt=""></span>
-  Aquarism was the hobby I chose gardening with almost 30 years, unlike many aquarists. A hobby that requires dedication and attention to details attracted me a lot, especially planted aquariums, in which the objective is to harmonize the needs of fish and plants and produce submerged landscapes. It is a hobby that allows us to keep in touch with nature, value all natural resources and understand about time and patience.
+  Aquarism was the hobby I chose with almost 30 years old, unlike many aquarists. A hobby that requires dedication and attention to details attracted me a lot, especially planted aquariums, in which the objective is to harmonize the needs of fish and plants and produce submerged landscapes. It is a hobby that allows us to keep in touch with nature, value all natural resources and understand about time and patience.
 </p>
 
 <p>
